@@ -315,7 +315,6 @@
 }
 .sideListName:hover {
     color: black;
-    transform: scale(1.02,1.02);
     transition-timing-function: ease-in-out;
     transition-duration: .04s;
     padding-top: 1em;
