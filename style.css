@@ -9,6 +9,7 @@
 }
 .margin {
     width: 50%;
+    margin-left: 10em;
     align-content: center;
     justify-items: center;
 }
@@ -61,7 +62,7 @@
     
 }
 .header {
-    height: 40vh;
+    height: 90vh;
     padding-top: 5em;
     padding-bottom: 5em;
 }
@@ -120,7 +121,14 @@
     overflow: hidden;
     border-radius: 0px;
     margin-bottom: 2em;
-    box-shadow: 0 10px 30px 0 rgba(0,0,0,0.10);
+    box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.01),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.01),
+  0 12.5px 10px rgba(0, 0, 0, 0.01),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.05),
+  0 41.8px 33.4px rgba(0, 0, 0, 0.05),
+  0 100px 80px rgba(0, 0, 0, 0.1)
+;
 }
 .open {
     position: absolute;
@@ -180,7 +188,7 @@
 #studentName.h2 {
     margin: 0em;
     padding: 0em;
-    font-weight: 800;
+    font-weight: 900;
     font-size: 2em;
     font-family: Muli;
 }
@@ -263,4 +271,113 @@
 .studentLinks {
     display: flex;
     flex-direction: row;
+}
+.sideListContainer {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    top: 0em;
+    bottom: 0em;
+    right: 0em;
+    left: 0em;
+    width: 13em;
+    background-color: white;
+    padding-left: 5em;
+    padding-right: 1em;
+    padding-top: 4em;
+    box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.01),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.01),
+  0 12.5px 10px rgba(0, 0, 0, 0.01),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.05),
+  0 41.8px 33.4px rgba(0, 0, 0, 0.05),
+  0 100px 80px rgba(0, 0, 0, 0.1)
+;
+    
+}
+.sideList {
+    text-decoration: none;
+    list-style: none;
+    padding: 0em;
+}
+.sideListName {
+    padding-top: .2em;
+    padding-bottom: .2em;
+    margin: 0em;
+    text-decoration: none;
+    font-family: Muli;
+    font-weight: 300;
+    font-size: .8em;
+    color: darkgray;
+    transition-timing-function: ease-in-out;
+    transition-duration: .04s;
+}
+.sideListName:hover {
+    color: black;
+    transform: scale(1.02,1.02);
+    transition-timing-function: ease-in-out;
+    transition-duration: .04s;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    font-weight: 500;
+}
+.sideListName:active {
+    color: #6b6b6b;
+}
+.sideListName:pressed {
+    color: #363636;
+}
+#sideListGrad {
+    font-weight: 100;
+    letter-spacing: 0em;
+    color: black;
+    font-size: 1.5em;
+    margin-bottom: 1.5em;
+    margin-top: 0em;
+    padding-top 0em;
+}
+#sideListMain {
+    font-weight: 800;
+    letter-spacing: .02em;
+    color: black;
+    font-size: .7em;
+    margin-bottom: .1em;
+}
+#sideListSub {
+    font-weight: 600;
+    letter-spacing: .02em;
+    color: black;
+    font-size: 1em;
+    margin-bottom: .2em;
+}
+#sideListTitle {
+    font-weight: 300;
+    letter-spacing: .02em;
+    color: black;
+    font-size: .7em;
+    margin-bottom: 2em;
+}
+#siteCreator {
+    position: absolute;
+    top: autoem;
+    bottom: 5em;
+    right: 0em;
+    left: 8.5em;
+    margin-top: 3em;
+    font-weight: 300;
+    letter-spacing: .02em;
+    color: #6b6b6b;
+    font-size: .6em;
+    text-decoration: none;
+    padding: 1em;
+    padding-left: 0em;
+}
+#siteCreator:hover {
+    margin-top: 3em;
+    font-weight: 300;
+    letter-spacing: .02em;
+    color: blue;
+    font-size: .6em;
+    text-decoration: none;
 }
