@@ -209,7 +209,7 @@
     font-weight: 400;
     margin-top: .5em;
     margin-bottom: 2em;
-    font-size: 2em;
+    font-size: 3em;
 }
 .viewPortfolio {
     background-color: white;
@@ -280,7 +280,7 @@
 }
 .studentLinks {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
 }
 .sideListContainer {
     position: fixed;
@@ -403,8 +403,9 @@
     align-items: center;
 }
 .margin {
-    width: 65%;
-    margin-left: 19em;
+    width: 100%;
+    margin-left: 2em;
+    margin-right: 2em;
     align-content: center;
     justify-items: center;
 }
@@ -584,7 +585,7 @@
     margin: 0em;
     padding: 0em;
     font-weight: 900;
-    font-size: 2em;
+    font-size: 2.5em;
     font-family: Muli;
 }
 #studentDirection.h3 {
@@ -593,12 +594,14 @@
     font-style: italic;
     font-weight: 300;
     color: darkgray;
+    font-size: .8em;
 }
 #studentBio.p {
     color: black;
     font-weight: 400;
     margin-top: .5em;
-    margin-bottom: 2em
+    margin-bottom: 2em;
+    font-size: .5em;
 }
 .viewPortfolio {
     background-color: white;
@@ -606,7 +609,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: row;
+    flex-direction: column;
     text-decoration: none;
     width: 100%;
     overflow: hidden;
@@ -625,7 +628,7 @@
 #portfolioButtonText.p {
     font-family: Muli;
     font-weight: 500;
-    font-size: 1em;
+    font-size: 2em;
     padding: .75em;
     margin: 0em;
     text-decoration: none;
@@ -648,10 +651,10 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    align-items: center;
+    align-items: s;
     text-decoration: none;
     color: darkgray;
-    font-size: 1.5em;
+    font-size: 2em;
     padding: .25em;
 }
 .socialMediaContent:hover {
@@ -667,11 +670,11 @@
 }
 .studentLinks {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
 }
 .sideListContainer {
     position: fixed;
-    display: flex;
+    display: none;
     flex-direction: column;
     justify-content: top;
     top: 0em;
@@ -985,7 +988,8 @@
     color: black;
     font-weight: 400;
     margin-top: .5em;
-    margin-bottom: 2em
+    margin-bottom: 2em;
+    font-size: 1em;
 }
 .viewPortfolio {
     background-color: white;
