@@ -1,3 +1,780 @@
+/* Smartphones (portrait) ----------- */
+@media only screen and (min-device-width : 100px) and (max-width : 768px) {
+/* Styles */
+.body {
+    padding: 0px;
+    margin: 0px;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.margin {
+    width: 65%;
+    margin-left: 19em;
+    align-content: center;
+    justify-items: center;
+}
+/*Font-Styles*/
+.h1 {
+    font-family: Muli;
+    font-weight: 200;
+    font-size: 4em;
+    color: black;
+}
+.h2 {
+    font-family: Muli;
+    font-weight: 700;
+}
+.h3 {
+    font-family: Muli;
+}
+.h4 {
+    font-family: Muli;
+}
+.p {
+    font-family: Muli;
+    font-weight: 300;
+    font-size: 1em;
+}
+#websiteDescription.p {
+    width: 30%;
+}
+
+/*sections*/
+#header.section {
+    background-color:white;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+#thanks.section {
+    background-color: black;
+    width: 100%;
+    display: none;
+    justify-content: center;
+    height: auto;
+}
+#content.section {
+    background-color: #f6f7f8;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: auto;
+    
+}
+.header {
+    height: 90vh;
+    padding-top: 5em;
+    padding-bottom: 5em;
+}
+#professors.header {
+    height: auto;
+}
+#content.header {
+    height: auto;
+}
+/*Professorbox*/
+.thanksContainer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5em;
+    margin-bottom: 5em;
+}
+.professorBox { 
+    overflow: hidden;
+    width: auto;
+    margin-right:.5em;
+    border-radius: 5px;
+    background-color: transparent;
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+    
+}
+.professorContent {
+    color: white;
+    overflow: hidden;
+    padding: 1em;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    
+}
+.professorImage {
+    width: 100%;
+    
+}
+#professorText.h2 {
+    margin: 0em;
+    font-weight: 200;
+    font-size: 1.25em;
+}
+/*PortfolioBox*/
+#end.p {
+    margin-bottom: 5em;
+}
+.portfolioBox {
+    width: 100%;
+    background-color:floralwhite;
+    padding-top: 56.25%;
+    position: relative;
+    overflow: hidden;
+    border-radius: 0px;
+    margin-bottom: 2em;
+    box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.01),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.01),
+  0 12.5px 10px rgba(0, 0, 0, 0.01),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.05),
+  0 41.8px 33.4px rgba(0, 0, 0, 0.05),
+  0 100px 80px rgba(0, 0, 0, 0.1)
+;
+}
+.open {
+    position: absolute;
+    background-color: white;
+    border-radius: 0px;
+    top: 1em;
+    bottom: 0em;
+    right: 0em;
+    left: 1em;
+    padding: 1em;
+    color: black;
+    z-index: 3;
+    width: 9em;
+    height: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+#NO.open {
+    display: none;
+}
+#open.h2 {
+    font-size: 1em;
+    color: green;
+    padding-left: .5em;
+}
+.portfolioImage {
+    width: 100%;
+    position: absolute;
+    background-position: top;
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index: 2;
+    top: 0%;
+    bottom: 0em;
+    right: 0em;
+    left: 0em;
+}
+.bottomContent {
+    width: auto;
+    position: relative;
+    z-index: 5;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-top: 3em;
+    padding-bottom: 3em;
+    padding-left: 4em;
+    padding-right: 4em;
+    background-color: white;
+}
+.leftSide {
+    width: 100%;
+}
+#studentName.h2 {
+    margin: 0em;
+    padding: 0em;
+    font-weight: 900;
+    font-size: 2em;
+    font-family: Muli;
+}
+#studentDirection.h3 {
+    margin: 0em;
+    padding: 0em;
+    font-style: italic;
+    font-weight: 300;
+    color: darkgray;
+}
+#studentBio.p {
+    color: black;
+    font-weight: 400;
+    margin-top: .5em;
+    margin-bottom: 2em
+}
+.viewPortfolio {
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    text-decoration: none;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 0px;
+    margin-bottom: 1em;
+    border-style: solid;
+    border-width: 2px;
+}
+.viewPortfolio:hover {
+    background-color: #000000;
+    color: white;
+    transition-property: all 300ms;
+    border-style: solid;
+    border-width: 2px;
+}
+#portfolioButtonText.p {
+    font-family: Muli;
+    font-weight: 500;
+    font-size: 1em;
+    padding: .75em;
+    margin: 0em;
+    text-decoration: none;
+}
+.rightSide {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.socialMediaBox {
+    text-decoration: none;
+    padding-top:2em;
+}
+.socialMediaEntry {
+    text-decoration: none;
+    display: flex;
+}
+.socialMediaContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-decoration: none;
+    color: darkgray;
+    font-size: 1.5em;
+    padding: .25em;
+}
+.socialMediaContent:hover {
+    color: black;
+}
+.socialName {
+    margin-top: 0em;
+    margin-bottom: 0em;
+    margin-left: 1em;
+    font-family: Muli;
+    font-weight: 600;
+    font-size: .6em;
+}
+.studentLinks {
+    display: flex;
+    flex-direction: column;
+}
+.sideListContainer {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    top: 0em;
+    bottom: 0em;
+    right: 0em;
+    left: 0em;
+    width: 13em;
+    background-color: white;
+    padding-left: 5em;
+    padding-right: 1em;
+    padding-top: 4em;
+    box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.01),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.01),
+  0 12.5px 10px rgba(0, 0, 0, 0.01),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.05),
+  0 41.8px 33.4px rgba(0, 0, 0, 0.05),
+  0 100px 80px rgba(0, 0, 0, 0.1)
+;
+    
+}
+.sideList {
+    text-decoration: none;
+    list-style: none;
+    padding: 0em;
+}
+.sideListName {
+    padding-top: .2em;
+    padding-bottom: .2em;
+    margin: 0em;
+    text-decoration: none;
+    font-family: Muli;
+    font-weight: 300;
+    font-size: .8em;
+    color: darkgray;
+    transition-timing-function: ease-in-out;
+    transition-duration: .04s;
+}
+.sideListName:hover {
+    color: black;
+    transition-timing-function: ease-in-out;
+    transition-duration: .04s;
+    font-weight: 700;
+    padding-left: .25em;
+}
+.sideListName:active {
+    color: #6b6b6b;
+}
+.sideListName:pressed {
+    color: #363636;
+}
+#sideListGrad {
+    font-weight: 100;
+    letter-spacing: 0em;
+    color: black;
+    font-size: 1.5em;
+    margin-bottom: 1.5em;
+    margin-top: 0em;
+    padding-top 0em;
+}
+#sideListMain {
+    font-weight: 800;
+    letter-spacing: .02em;
+    color: black;
+    font-size: .7em;
+    margin-bottom: .1em;
+}
+#sideListSub {
+    font-weight: 600;
+    letter-spacing: .02em;
+    color: black;
+    font-size: 1em;
+    margin-bottom: .2em;
+}
+#sideListTitle {
+    font-weight: 300;
+    letter-spacing: .02em;
+    color: black;
+    font-size: .7em;
+    margin-bottom: 2em;
+}
+#siteCreator {
+    position: absolute;
+    top: autoem;
+    bottom: 5em;
+    right: 0em;
+    left: 8.5em;
+    margin-top: 3em;
+    font-weight: 300;
+    letter-spacing: .02em;
+    color: #6b6b6b;
+    font-size: .6em;
+    text-decoration: none;
+    padding: 1em;
+    padding-left: 0em;
+}
+#siteCreator:hover {
+    margin-top: 3em;
+    font-weight: 300;
+    letter-spacing: .02em;
+    color: blue;
+    font-size: .6em;
+    text-decoration: none;
+}
+}
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+/* Styles */
+.body {
+    padding: 0px;
+    margin: 0px;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.margin {
+    width: 65%;
+    margin-left: 19em;
+    align-content: center;
+    justify-items: center;
+}
+/*Font-Styles*/
+.h1 {
+    font-family: Muli;
+    font-weight: 200;
+    font-size: 4em;
+    color: black;
+}
+.h2 {
+    font-family: Muli;
+    font-weight: 700;
+}
+.h3 {
+    font-family: Muli;
+}
+.h4 {
+    font-family: Muli;
+}
+.p {
+    font-family: Muli;
+    font-weight: 300;
+    font-size: 1em;
+}
+#websiteDescription.p {
+    width: 30%;
+}
+
+/*sections*/
+#header.section {
+    background-color:white;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+#thanks.section {
+    background-color: black;
+    width: 100%;
+    display: none;
+    justify-content: center;
+    height: auto;
+}
+#content.section {
+    background-color: #f6f7f8;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: auto;
+    
+}
+.header {
+    height: 90vh;
+    padding-top: 5em;
+    padding-bottom: 5em;
+}
+#professors.header {
+    height: auto;
+}
+#content.header {
+    height: auto;
+}
+/*Professorbox*/
+.thanksContainer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5em;
+    margin-bottom: 5em;
+}
+.professorBox { 
+    overflow: hidden;
+    width: auto;
+    margin-right:.5em;
+    border-radius: 5px;
+    background-color: transparent;
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+    
+}
+.professorContent {
+    color: white;
+    overflow: hidden;
+    padding: 1em;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    
+}
+.professorImage {
+    width: 100%;
+    
+}
+#professorText.h2 {
+    margin: 0em;
+    font-weight: 200;
+    font-size: 1.25em;
+}
+/*PortfolioBox*/
+#end.p {
+    margin-bottom: 5em;
+}
+.portfolioBox {
+    width: 100%;
+    background-color:floralwhite;
+    padding-top: 56.25%;
+    position: relative;
+    overflow: hidden;
+    border-radius: 0px;
+    margin-bottom: 2em;
+    box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.01),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.01),
+  0 12.5px 10px rgba(0, 0, 0, 0.01),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.05),
+  0 41.8px 33.4px rgba(0, 0, 0, 0.05),
+  0 100px 80px rgba(0, 0, 0, 0.1)
+;
+}
+.open {
+    position: absolute;
+    background-color: white;
+    border-radius: 0px;
+    top: 1em;
+    bottom: 0em;
+    right: 0em;
+    left: 1em;
+    padding: 1em;
+    color: black;
+    z-index: 3;
+    width: 9em;
+    height: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+#NO.open {
+    display: none;
+}
+#open.h2 {
+    font-size: 1em;
+    color: green;
+    padding-left: .5em;
+}
+.portfolioImage {
+    width: 100%;
+    position: absolute;
+    background-position: top;
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index: 2;
+    top: 0%;
+    bottom: 0em;
+    right: 0em;
+    left: 0em;
+}
+.bottomContent {
+    width: auto;
+    position: relative;
+    z-index: 5;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-top: 3em;
+    padding-bottom: 3em;
+    padding-left: 4em;
+    padding-right: 4em;
+    background-color: white;
+}
+.leftSide {
+    width: 100%;
+}
+#studentName.h2 {
+    margin: 0em;
+    padding: 0em;
+    font-weight: 900;
+    font-size: 2em;
+    font-family: Muli;
+}
+#studentDirection.h3 {
+    margin: 0em;
+    padding: 0em;
+    font-style: italic;
+    font-weight: 300;
+    color: darkgray;
+}
+#studentBio.p {
+    color: black;
+    font-weight: 400;
+    margin-top: .5em;
+    margin-bottom: 2em
+}
+.viewPortfolio {
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    text-decoration: none;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 0px;
+    margin-bottom: 1em;
+    border-style: solid;
+    border-width: 2px;
+}
+.viewPortfolio:hover {
+    background-color: #000000;
+    color: white;
+    transition-property: all 300ms;
+    border-style: solid;
+    border-width: 2px;
+}
+#portfolioButtonText.p {
+    font-family: Muli;
+    font-weight: 500;
+    font-size: 1em;
+    padding: .75em;
+    margin: 0em;
+    text-decoration: none;
+}
+.rightSide {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.socialMediaBox {
+    text-decoration: none;
+    padding-top:2em;
+}
+.socialMediaEntry {
+    text-decoration: none;
+    display: flex;
+}
+.socialMediaContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-decoration: none;
+    color: darkgray;
+    font-size: 1.5em;
+    padding: .25em;
+}
+.socialMediaContent:hover {
+    color: black;
+}
+.socialName {
+    margin-top: 0em;
+    margin-bottom: 0em;
+    margin-left: 1em;
+    font-family: Muli;
+    font-weight: 600;
+    font-size: .6em;
+}
+.studentLinks {
+    display: flex;
+    flex-direction: column;
+}
+.sideListContainer {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    top: 0em;
+    bottom: 0em;
+    right: 0em;
+    left: 0em;
+    width: 13em;
+    background-color: white;
+    padding-left: 5em;
+    padding-right: 1em;
+    padding-top: 4em;
+    box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.01),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.01),
+  0 12.5px 10px rgba(0, 0, 0, 0.01),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.05),
+  0 41.8px 33.4px rgba(0, 0, 0, 0.05),
+  0 100px 80px rgba(0, 0, 0, 0.1)
+;
+    
+}
+.sideList {
+    text-decoration: none;
+    list-style: none;
+    padding: 0em;
+}
+.sideListName {
+    padding-top: .2em;
+    padding-bottom: .2em;
+    margin: 0em;
+    text-decoration: none;
+    font-family: Muli;
+    font-weight: 300;
+    font-size: .8em;
+    color: darkgray;
+    transition-timing-function: ease-in-out;
+    transition-duration: .04s;
+}
+.sideListName:hover {
+    color: black;
+    transition-timing-function: ease-in-out;
+    transition-duration: .04s;
+    font-weight: 700;
+    padding-left: .25em;
+}
+.sideListName:active {
+    color: #6b6b6b;
+}
+.sideListName:pressed {
+    color: #363636;
+}
+#sideListGrad {
+    font-weight: 100;
+    letter-spacing: 0em;
+    color: black;
+    font-size: 1.5em;
+    margin-bottom: 1.5em;
+    margin-top: 0em;
+    padding-top 0em;
+}
+#sideListMain {
+    font-weight: 800;
+    letter-spacing: .02em;
+    color: black;
+    font-size: .7em;
+    margin-bottom: .1em;
+}
+#sideListSub {
+    font-weight: 600;
+    letter-spacing: .02em;
+    color: black;
+    font-size: 1em;
+    margin-bottom: .2em;
+}
+#sideListTitle {
+    font-weight: 300;
+    letter-spacing: .02em;
+    color: black;
+    font-size: .7em;
+    margin-bottom: 2em;
+}
+#siteCreator {
+    position: absolute;
+    top: autoem;
+    bottom: 5em;
+    right: 0em;
+    left: 8.5em;
+    margin-top: 3em;
+    font-weight: 300;
+    letter-spacing: .02em;
+    color: #6b6b6b;
+    font-size: .6em;
+    text-decoration: none;
+    padding: 1em;
+    padding-left: 0em;
+}
+#siteCreator:hover {
+    margin-top: 3em;
+    font-weight: 300;
+    letter-spacing: .02em;
+    color: blue;
+    font-size: .6em;
+    text-decoration: none;
+}
+}
+/* Desktops and laptops ----------- */
+@media only screen  and (min-width : 1224px) {
+/* Styles */
 .body {
     padding: 0px;
     margin: 0px;
@@ -378,4 +1155,390 @@
     color: blue;
     font-size: .6em;
     text-decoration: none;
+}
+}
+/* Large screens ----------- */
+@media only screen  and (min-width : 1824px) {
+/* Styles */
+.body {
+    padding: 0px;
+    margin: 0px;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.margin {
+    width: 50%;
+    margin-left: 10em;
+    align-content: center;
+    justify-items: center;
+}
+/*Font-Styles*/
+.h1 {
+    font-family: Muli;
+    font-weight: 200;
+    font-size: 4em;
+    color: black;
+}
+.h2 {
+    font-family: Muli;
+    font-weight: 700;
+}
+.h3 {
+    font-family: Muli;
+}
+.h4 {
+    font-family: Muli;
+}
+.p {
+    font-family: Muli;
+    font-weight: 300;
+    font-size: 1em;
+}
+#websiteDescription.p {
+    width: 30%;
+}
+
+/*sections*/
+#header.section {
+    background-color:white;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+#thanks.section {
+    background-color: black;
+    width: 100%;
+    display: none;
+    justify-content: center;
+    height: auto;
+}
+#content.section {
+    background-color: #f6f7f8;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: auto;
+    
+}
+.header {
+    height: 90vh;
+    padding-top: 5em;
+    padding-bottom: 5em;
+}
+#professors.header {
+    height: auto;
+}
+#content.header {
+    height: auto;
+}
+/*Professorbox*/
+.thanksContainer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5em;
+    margin-bottom: 5em;
+}
+.professorBox { 
+    overflow: hidden;
+    width: auto;
+    margin-right:.5em;
+    border-radius: 5px;
+    background-color: transparent;
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+    
+}
+.professorContent {
+    color: white;
+    overflow: hidden;
+    padding: 1em;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    
+}
+.professorImage {
+    width: 100%;
+    
+}
+#professorText.h2 {
+    margin: 0em;
+    font-weight: 200;
+    font-size: 1.25em;
+}
+/*PortfolioBox*/
+#end.p {
+    margin-bottom: 5em;
+}
+.portfolioBox {
+    width: 100%;
+    background-color:floralwhite;
+    padding-top: 56.25%;
+    position: relative;
+    overflow: hidden;
+    border-radius: 0px;
+    margin-bottom: 2em;
+    box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.01),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.01),
+  0 12.5px 10px rgba(0, 0, 0, 0.01),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.05),
+  0 41.8px 33.4px rgba(0, 0, 0, 0.05),
+  0 100px 80px rgba(0, 0, 0, 0.1)
+;
+}
+.open {
+    position: absolute;
+    background-color: white;
+    border-radius: 0px;
+    top: 1em;
+    bottom: 0em;
+    right: 0em;
+    left: 1em;
+    padding: 1em;
+    color: black;
+    z-index: 3;
+    width: 9em;
+    height: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+#NO.open {
+    display: none;
+}
+#open.h2 {
+    font-size: 1em;
+    color: green;
+    padding-left: .5em;
+}
+.portfolioImage {
+    width: 100%;
+    position: absolute;
+    background-position: top;
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index: 2;
+    top: 0%;
+    bottom: 0em;
+    right: 0em;
+    left: 0em;
+}
+.bottomContent {
+    width: auto;
+    position: relative;
+    z-index: 5;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-top: 3em;
+    padding-bottom: 3em;
+    padding-left: 4em;
+    padding-right: 4em;
+    background-color: white;
+}
+.leftSide {
+    width: 50%;
+}
+#studentName.h2 {
+    margin: 0em;
+    padding: 0em;
+    font-weight: 900;
+    font-size: 2em;
+    font-family: Muli;
+}
+#studentDirection.h3 {
+    margin: 0em;
+    padding: 0em;
+    font-style: italic;
+    font-weight: 300;
+    color: darkgray;
+}
+#studentBio.p {
+    color: black;
+    font-weight: 400;
+    margin-top: .5em;
+    margin-bottom: 2em
+}
+.viewPortfolio {
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    text-decoration: none;
+    width: 45%;
+    overflow: hidden;
+    border-radius: 0px;
+    margin-right: 1em;
+    border-style: solid;
+    border-width: 2px;
+}
+.viewPortfolio:hover {
+    background-color: #000000;
+    color: white;
+    transition-property: all 300ms;
+    border-style: solid;
+    border-width: 2px;
+}
+#portfolioButtonText.p {
+    font-family: Muli;
+    font-weight: 500;
+    font-size: 1em;
+    padding: .75em;
+    margin: 0em;
+    text-decoration: none;
+}
+.rightSide {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.socialMediaBox {
+    text-decoration: none;
+}
+.socialMediaEntry {
+    text-decoration: none;
+}
+.socialMediaContent {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    text-decoration: none;
+    color: darkgray;
+    font-size: 1.5em;
+    padding: .25em;
+}
+.socialMediaContent:hover {
+    color: black;
+}
+.socialName {
+    margin-top: 0em;
+    margin-bottom: 0em;
+    margin-left: 1em;
+    font-family: Muli;
+    font-weight: 600;
+    font-size: .6em;
+}
+.studentLinks {
+    display: flex;
+    flex-direction: row;
+}
+.sideListContainer {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    top: 0em;
+    bottom: 0em;
+    right: 0em;
+    left: 0em;
+    width: 13em;
+    background-color: white;
+    padding-left: 5em;
+    padding-right: 1em;
+    padding-top: 4em;
+    box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.01),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.01),
+  0 12.5px 10px rgba(0, 0, 0, 0.01),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.05),
+  0 41.8px 33.4px rgba(0, 0, 0, 0.05),
+  0 100px 80px rgba(0, 0, 0, 0.1)
+;
+    
+}
+.sideList {
+    text-decoration: none;
+    list-style: none;
+    padding: 0em;
+}
+.sideListName {
+    padding-top: .2em;
+    padding-bottom: .2em;
+    margin: 0em;
+    text-decoration: none;
+    font-family: Muli;
+    font-weight: 300;
+    font-size: .8em;
+    color: darkgray;
+    transition-timing-function: ease-in-out;
+    transition-duration: .04s;
+}
+.sideListName:hover {
+    color: black;
+    transition-timing-function: ease-in-out;
+    transition-duration: .04s;
+    font-weight: 700;
+    padding-left: .25em;
+}
+.sideListName:active {
+    color: #6b6b6b;
+}
+.sideListName:pressed {
+    color: #363636;
+}
+#sideListGrad {
+    font-weight: 100;
+    letter-spacing: 0em;
+    color: black;
+    font-size: 1.5em;
+    margin-bottom: 1.5em;
+    margin-top: 0em;
+    padding-top 0em;
+}
+#sideListMain {
+    font-weight: 800;
+    letter-spacing: .02em;
+    color: black;
+    font-size: .7em;
+    margin-bottom: .1em;
+}
+#sideListSub {
+    font-weight: 600;
+    letter-spacing: .02em;
+    color: black;
+    font-size: 1em;
+    margin-bottom: .2em;
+}
+#sideListTitle {
+    font-weight: 300;
+    letter-spacing: .02em;
+    color: black;
+    font-size: .7em;
+    margin-bottom: 2em;
+}
+#siteCreator {
+    position: absolute;
+    top: autoem;
+    bottom: 5em;
+    right: 0em;
+    left: 8.5em;
+    margin-top: 3em;
+    font-weight: 300;
+    letter-spacing: .02em;
+    color: #6b6b6b;
+    font-size: .6em;
+    text-decoration: none;
+    padding: 1em;
+    padding-left: 0em;
+}
+#siteCreator:hover {
+    margin-top: 3em;
+    font-weight: 300;
+    letter-spacing: .02em;
+    color: blue;
+    font-size: .6em;
+    text-decoration: none;
+}
 }
