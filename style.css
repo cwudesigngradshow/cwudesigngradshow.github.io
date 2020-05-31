@@ -834,7 +834,7 @@
 .mainheading {
     font-weight: 300;
     font-family: Poppins;
-    font-size: 2em;
+    font-size: 5em;
     width: 100%;
     margin-top: 0em;
     line-height: 1.25em;
@@ -849,7 +849,7 @@
     
 }
 .bodytext {
-    font-size: .95em;
+    font-size: .90em;
     font-weight: 300;
     font-family: poppins;
     margin-top: .25em;
