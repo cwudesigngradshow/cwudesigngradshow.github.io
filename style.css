@@ -410,7 +410,7 @@
     line-height: 1.25em;
 }
 .subheading {
-    font-size: 2em;
+    font-size: 1em;
     font-weight: 700;
     font-family: Poppins;
     letter-spacing: .1em;
@@ -1690,7 +1690,7 @@
     
 }
 .bodytext {
-    font-size: .95em;
+    font-size: 1.5em;
     font-weight: 300;
     font-family: Poppins;
     margin-top: .25em;
