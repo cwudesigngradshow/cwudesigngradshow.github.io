@@ -1227,7 +1227,7 @@
 }
 #siteCreator {
     position: absolute;
-    top: autoem;
+    top: auto;
     bottom: 5em;
     right: 0em;
     left: 8.5em;
@@ -1262,7 +1262,7 @@
 .subheading {
     font-size: 1em;
     font-weight: 700;
-    font-family: poppins;
+    font-family: Poppins;
     letter-spacing: .1em;
     margin-bottom: 0em;
     color: darkgray;
@@ -1271,7 +1271,7 @@
 .bodytext {
     font-size: .95em;
     font-weight: 300;
-    font-family: poppins;
+    font-family: Poppins;
     margin-top: .25em;
     width: 100%;
     line-height: 1.4em;
@@ -1648,7 +1648,7 @@
 }
 #siteCreator {
     position: absolute;
-    top: autoem;
+    top: auto;
     bottom: 5em;
     right: 0em;
     left: 8.5em;
@@ -1683,7 +1683,7 @@
 .subheading {
     font-size: 1em;
     font-weight: 700;
-    font-family: poppins;
+    font-family: Poppins;
     letter-spacing: .1em;
     margin-bottom: 0em;
     color: darkgray;
@@ -1692,7 +1692,7 @@
 .bodytext {
     font-size: .95em;
     font-weight: 300;
-    font-family: poppins;
+    font-family: Poppins;
     margin-top: .25em;
     width: 75%;
     line-height: 1.4em;
