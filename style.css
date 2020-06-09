@@ -675,7 +675,7 @@
     font-family: Muli;
     font-weight: 500;
     font-size: 2em;
-    padding: .75em;
+    padding: 1.25em;
     margin: 0em;
     text-decoration: none;
 }
@@ -861,6 +861,24 @@
     width: 100%;
     line-height: 1.4em;
     color: black;
+}
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 2em;
+    text-decoration: none;
+}
+#siteCreator2 {
+    font-size: 21pt;
+    text-decoration: none;
+    color: black;
+    margin-left: 1em;
+}
+.bottomImage {
+    width: 36pt; 
 }
 }
 /* Desktops and laptops ----------- */
@@ -1281,6 +1299,9 @@
     width: 100%;
     line-height: 1.4em;
     color: black;
+}
+.footer {
+    display: none;
 }
 }
 /* Large screens ----------- */
