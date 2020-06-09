@@ -448,7 +448,7 @@
     align-items: center;
 }
 .margin {
-    width: 90%;
+    width: 95%;
     margin-left: 2em;
     margin-right: 2em;
     align-content: center;
@@ -863,13 +863,18 @@
     color: black;
 }
 .footer {
+    z-index: 1;
     display: flex;
+    position: relative;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     background-color: white;
-    padding: 2em;
+    padding: 3em;
     text-decoration: none;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
 }
 #siteCreator2 {
     font-size: 21pt;
