@@ -1373,7 +1373,7 @@
     height: auto;
 }
 #content.section {
-    background-color: #f6f7f8;
+    background-color: white;
     width: 100%;
     display: flex;
     justify-content: center;
